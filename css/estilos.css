@@ -1,25 +1,30 @@
 /* ---------------LAYOUT ----------*/
 .main-container{
 	display: flex;
-	width: 120%;
+	width: 1500px;
 }
 /* ---------------GENERAL----------*/
 ul {
 	list-style-type: none;
 
 }
-
+.clear {
+	clear: both;
+}
+h1,
+h2 {
+	text-transform: uppercase;
+}
 /*--------------- ASIDE----------- */
 aside {
 	background-color: #828592;
-	width: 35%;
+	width: 30%;
 	margin: 2%;
 }
 aside *{
 	color: white;
 }
 aside h2 {
-	text-transform: uppercase;
 	letter-spacing: 5px;
 }
 aside section h2:first-child{
@@ -38,20 +43,21 @@ main section h2{
 .hero {
 	background-color: #FDEDEC;
 	box-shadow: 2px 2px 40px 1px #D5D8DC inset;
+	padding: 10% 0;
+	text-align: center;
 }
 .hero h2{
 	color: white;
 	border-top: 2px solid white;
-	text-transform: none;
-	letter-spacing: normal;
+	letter-spacing: 15px;
+}
+.hero h1 {
+	letter-spacing: 15px;
 }
 
-.sobre-mi {
+.sobre-mi p {
+	line-height: 1.5em;
 	background-color: #FADBD8;
-
-}
-.sobre-mi h2 {
-	background-color: white;
 }
 article h3,
 article h4{
@@ -66,8 +72,33 @@ article ul {
 /*Referenciass*/
 .Referencias {
 	display: flex;
+	background-color:  #FADBD8;
+	text-align: center;
 
 }
 .Referencias article {
 	width: 50%,
+}
+
+/*DL*/
+
+dt,
+dd {
+	line-height: 1.5em;
+	border-top: 1px solid white;
+}
+dt {
+	font-weight: bolder;
+	clear: left;
+	width: 50%;
+	float: left;
+	
+
+}
+dd {
+	clear: left;
+	width: 50%;
+	float: left;
+	margin: 0;
+	
 }
