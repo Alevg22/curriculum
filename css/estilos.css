@@ -1,7 +1,9 @@
 /* ---------------LAYOUT ----------*/
 .main-container{
 	display: flex;
-	width: 1500px;
+	width: 1550px;
+	margin: 0 auto;
+	flex-wrap: center;
 }
 /* ---------------GENERAL----------*/
 ul {
@@ -18,7 +20,7 @@ h2 {
 /*--------------- ASIDE----------- */
 aside {
 	background-color: #828592;
-	width: 30%;
+	width: 25%;
 	margin: 2%;
 }
 aside *{
@@ -32,7 +34,7 @@ aside section h2:first-child{
 
 }
 #melanie-pic img{
-	border-radius: 20%;
+	border-radius: 50%;
 } 
 
 /*--------------- MAIN----------- */
@@ -41,8 +43,8 @@ main section h2{
 	letter-spacing: 5px;
 }
 .hero {
-	background-color: #FDEDEC;
-	box-shadow: 2px 2px 40px 1px #D5D8DC inset;
+	background-color: #FADBD8 ;
+	box-shadow: 2px 2px 35px 1px #D5D8DC inset;
 	padding: 10% 0;
 	text-align: center;
 }
@@ -81,13 +83,26 @@ article ul {
 }
 
 /*DL*/
+dl {
+	display: flex;
+	flex-wrap: wrap;
+}
 
 dt,
 dd {
 	line-height: 1.5em;
 	border-top: 1px solid white;
+	flex-basis: 40%;
+	margin:0;
+}
+dt:last-of-type,
+dd:last-of-type {
+	border-bottom: 1px solid white;
 }
 dt {
+	font-weight: bolder;
+}
+/*dt {
 	font-weight: bolder;
 	clear: left;
 	width: 50%;
@@ -101,4 +116,14 @@ dd {
 	float: left;
 	margin: 0;
 	
+}*/
+
+
+/* Icons*/
+
+.social-item::before 
+	padding-right: 10px;
 }
+  
+	
+
