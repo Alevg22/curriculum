@@ -60,6 +60,7 @@ main section h2{
 .sobre-mi p {
 	line-height: 1.5em;
 	background-color: #FADBD8;
+	text-align: center;
 }
 article h3,
 article h4{
@@ -77,9 +78,11 @@ article ul {
 	background-color:  #FADBD8;
 	text-align: center;
 
+
 }
 .Referencias article {
-	width: 50%,
+	flex-basis: 100%,
+
 }
 
 /*DL*/
